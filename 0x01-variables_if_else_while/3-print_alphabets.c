@@ -10,7 +10,7 @@ int main(void)
 
 	do {
 		for (z = 'a'; z <= 'z'; z++)
-			putchar(c);
+			putchar(z);
 	} while (z < 'z');
 	do {
 		for (z = 'A'; z <= 'Z'; z++)
