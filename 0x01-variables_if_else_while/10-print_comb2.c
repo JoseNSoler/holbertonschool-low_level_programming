@@ -1,24 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main -List numbers
+ * main - Entry point
  * Return: 0
  *
-*/
+ */
+
 int main(void)
 {
 
-int x = 50;
+int x  = 50;
 
 int y = 50;
 
-while (x <= 59)
+while (y <= 59)
 {
-for ( ; y <= 59; y++)
+for ( ; x <= 59; x++)
 {
-putchar(x);
 putchar(y);
-if (y == 59 && x == 59)
+putchar(x);
+if (x == 59 && y == 59)
 {
 putchar('\n');
 break;
@@ -26,8 +28,8 @@ break;
 putchar(',');
 putchar(' ');
 }
-y = 50;
-x++;
+x = 50;
+y++;
 }
 return (0);
 }
