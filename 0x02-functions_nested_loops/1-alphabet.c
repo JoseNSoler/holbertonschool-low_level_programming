@@ -1,9 +1,21 @@
 #include "holberton.h"
 
 /**
- * print_alphabet - alphabet with header
- * Return: void
- *
+ * main - check the code for Holberton School students
+ * Return:  0 void
+ */
+
+int main(void)
+{
+
+	print_alphabet();
+
+	return (0);
+}
+
+/**
+ * print_alphabet - alphabet with heade
+ * Return for alphabet
  */
 
 void print_alphabet(void)
@@ -15,5 +27,6 @@ void print_alphabet(void)
 		_putchar(x);
 		x++;
 	}
-	_putchar(\n);
+	_putchar('\n');
+
 }
