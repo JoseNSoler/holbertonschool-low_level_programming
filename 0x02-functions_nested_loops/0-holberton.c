@@ -1,9 +1,6 @@
-#include "holberton.h"
-
+#include <holberton.h>
 /**
- *
- * main - put char  Holberton
- *
+ * main - Entry point
  * Return: 0
  *
  */
