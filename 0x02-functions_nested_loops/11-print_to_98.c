@@ -1,25 +1,26 @@
+#include <stdio.h>
 #include "holberton.h"
 
 /**
  * print_to_98 - all numbers to 98
- * @n: var int
+ * @x: var int
  * Return : none
  */
 
-void print_to_98(int n)
+void print_to_98(int x)
 {
 
-	while (n != 98)
+	while (x != 98)
 	{
-		printf("%d, ", n);
+		printf("%d, ", x);
 
-		if (n < 98)
+		if (x < 98)
 		{
-			n++;
+			x++;
 		}
-		else if (n > 98)
+		else if (x > 98)
 		{
-			n--;
+			x--;
 		}
 
 	}
