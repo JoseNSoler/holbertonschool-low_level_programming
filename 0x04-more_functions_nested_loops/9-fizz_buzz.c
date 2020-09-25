@@ -4,7 +4,7 @@
 /**
  * main - main entry
  *
- * Return: void
+ * Return: return 0
  */
 
 
@@ -12,25 +12,34 @@
 
 int main(void)
 {
-	int x;
+int i;
 
-	for (x = 1; x <= 100 ; x++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (x % 3 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("Fizz");
+			printf("FizzBuzz ");
 		}
-		if (x % 5 == 0)
+		else if (i % 5 == 0)
 		{
-			printf("Buzz");
+			if (i != 100)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz\n");
+			}
 		}
-		if ((x % 3 != 0) && (x % 5 != 0))
+		else if (i % 3 == 0)
 		{
-			printf("%d", x);
+			printf("Fizz ");
 		}
-		printf(" ");
+		else
+		{
+			printf("%d ", i);
+		}
 	}
-	printf("\n");
 	return (0);
 }
 
