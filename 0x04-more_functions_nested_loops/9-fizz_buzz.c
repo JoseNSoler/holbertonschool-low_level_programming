@@ -1,6 +1,7 @@
+#include "holberton.h"
 #include <stdio.h>
 
-void fizz_buzz(void);
+
 /**
  * main - main entry
  *
