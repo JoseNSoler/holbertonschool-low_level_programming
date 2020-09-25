@@ -1,20 +1,38 @@
+#include <unistd.h>
 #include <stdio.h>
 
-void fizz_buzz(void);
+
 /**
  * main - main entry
- *
+ * @c: char
  * Return: void
  */
 
 
-
+int _putchar(char c);
+void fizz_buzz(void);
 
 int main(void)
 {
 	fizz_buzz();
 	return (0);
 }
+
+
+
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
 
 
 /**
@@ -41,7 +59,7 @@ void fizz_buzz(void)
 		{
 			printf("%d", x);
 		}
-		printf(" ");
+		putchar(32);
 	}
-	printf("\n");
+	_putchar('\n');
 }
