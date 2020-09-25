@@ -14,13 +14,13 @@ int main(void)
 
 	int y = 48;
 
-	while (y <= 59)
+	while (x <= 57)
 	{
-		for ( ; x <= 59; x++)
+		for ( ; y <= 57; y++)
 		{
-			putchar(y);
 			putchar(x);
-			if (x == 57 && y == 57)
+			putchar(y);
+			if (y == 57 && x == 57)
 			{
 				putchar('\n');
 				break;
@@ -28,8 +28,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-	x = 48;
-	y++;
+	y = 48;
+	x++;
 	}
 	return (0);
 }
