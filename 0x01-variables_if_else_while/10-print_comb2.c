@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
+ * main - Entry point numbers
  * Return: 0
  *
  */
@@ -10,9 +10,9 @@
 int main(void)
 {
 
-	int x  = 50;
+	int x  = 48;
 
-	int y = 50;
+	int y = 48;
 
 	while (y <= 59)
 	{
@@ -20,7 +20,7 @@ int main(void)
 		{
 			putchar(y);
 			putchar(x);
-			if (x == 59 && y == 59)
+			if (x == 57 && y == 57)
 			{
 				putchar('\n');
 				break;
@@ -28,7 +28,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-	x = 50;
+	x = 48;
 	y++;
 	}
 	return (0);
