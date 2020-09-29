@@ -18,7 +18,7 @@ void print_rev(char *s)
 
 	x = x - 1;
 
-	for (; x > 0; x--)
+	for (; x >= 0; x--)
 	{
 		int y = s[x];
 
