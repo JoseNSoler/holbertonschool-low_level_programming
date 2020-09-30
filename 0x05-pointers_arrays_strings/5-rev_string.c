@@ -27,7 +27,7 @@ void rev_string(char *s)
 
 	a[y + 1] = '\0';
 
-	for (z = 0; z <= i - 1; z++)
+	for (z = 0; z <= x - 1; z++)
 	{
 		s[z] = a[z];
 	}
