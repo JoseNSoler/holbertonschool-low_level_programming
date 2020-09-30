@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "_putchar.c"
 
 /**
  * puts2 - interval char of a string?
