@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "_putchar.c"
 
 /**
  * puts_half - prints after the middle of a string
