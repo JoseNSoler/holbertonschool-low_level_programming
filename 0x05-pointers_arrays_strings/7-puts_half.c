@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "_putchar.c"
 
 /**
  * puts_half - prints after the middle of a string
@@ -16,10 +17,11 @@ void puts_half(char *str)
 		x++;
 	}
 
-	int y = 0;
 
 	if (x % 2 != 0)
 	{
+		int y = 0;
+
 		y = (x - 1) / 2;
 		for (; y <= x - 1; y++)
 		{
@@ -29,11 +31,13 @@ void puts_half(char *str)
 
 	else
 	{
-		y = x / 2;
+		int z = 0;
 
-		for (; y <= x - 1; y++)
+		z = x / 2;
+
+		for (; z <= x - 1; z++)
 		{
-			_putchar(str[y]);
+			_putchar(str[z]);
 		}
 
 	}
