@@ -30,7 +30,7 @@ int _strcmp(char *s1, char *s2)
 			break;
 		}
 	}
-	z = s1[y] - s2[y]
+	z = s1[y] - s2[y];
 	return (z);
 
 
