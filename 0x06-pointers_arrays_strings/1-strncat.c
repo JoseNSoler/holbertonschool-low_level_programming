@@ -13,6 +13,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int x = 0;
 	int y = 0;
+	int z = 0;
 
 	while (dest[x] != '\0')
 	{
@@ -24,7 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 		y++;
 	}
 
-	for (int z = 0; z < n; z++)
+	for (; z < n; z++)
 	{
 		if (z < y)
 		{
