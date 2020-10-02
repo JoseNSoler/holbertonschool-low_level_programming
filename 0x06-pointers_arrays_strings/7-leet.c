@@ -13,22 +13,22 @@ char *leet(char *a)
 {
 	int x = 0;
 	int y;
-	char aeo["aeotlAEOTL"];
-	char b["4307143071"];
+	char aeo[] = {"aeotlAEOTL"};
+	char b[] = {"4307143071"};
 
 
 	while (a[x] != '\0')
 	{
-		for (y = 0; aeo[y != '\0'; y++])
+		for (y = 0; aeo[y] != '\0'; y++)
 		{
-			if (a[y] == aeo[x])
+			if (a[x] == aeo[y])
 			{
 				a[y] = b[x];
 				break;
 			}
 		}
 
-		x++
+		x++;
 	}
 	return (a);
 }
