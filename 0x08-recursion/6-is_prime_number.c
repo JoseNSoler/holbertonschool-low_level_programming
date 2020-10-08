@@ -1,10 +1,12 @@
 #include "holberton.h"
 
+int _prime(int n, int d);
+
 /**
  * is_prime_number -  returns if the input integer is a prime number
  * @n: int to analyze
  *
- * Return: if is a prime number - 1 , else - 0.
+ * Return: function _prime
  */
 
 int is_prime_number(int n)
@@ -17,7 +19,7 @@ int is_prime_number(int n)
  * @n: number to analyze.
  * @d: divisor.
  *
- * Return: 1 if the input integer is a prime number, otherwise return 0.
+ * Return: -1- if is a prime number, -0- else.
  */
 
 int _prime(int n, int d)
