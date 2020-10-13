@@ -1,5 +1,6 @@
 #include "holberton.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * *create_array - generates array and returns pointer of it
