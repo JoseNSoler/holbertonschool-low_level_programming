@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * *_str_concat - concatenates two string in a new var
+ * *str_concat - concatenates two string in a new var
  * @s1: first string
  * @s2: second string
  * Return: Null on invalid str - str:pointer to new array
