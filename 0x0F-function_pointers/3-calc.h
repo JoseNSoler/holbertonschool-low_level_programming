@@ -28,9 +28,4 @@ int op_mod(int a, int b);
 
 
 
-#endif /* _CALC_H_ */
-
-
-
-
 #endif
