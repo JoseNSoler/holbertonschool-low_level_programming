@@ -15,9 +15,9 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_list arguments;
 
-	if (arguments)
+	if (arguments != NULL)
 	{
-		int count = 0;
+		unsigned int count = 0;
 
 		va_start(arguments, n);
 
