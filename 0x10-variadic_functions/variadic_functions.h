@@ -32,6 +32,7 @@ void print_int(va_list s);
 void print_float(va_list s);
 void print_string(va_list s);
 
+void print_all(const char * const format, ...);
 
 
 #endif
