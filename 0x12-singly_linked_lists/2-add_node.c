@@ -5,7 +5,7 @@
  * @head: pointer to last head
  * @str: string to add
  *
- * Return: head - address of the new element - NULL if it failed
+ * Return: head-- address of the new element - NULL if it failed
  */
 
 list_t *add_node(list_t **head, const char *str)

@@ -4,7 +4,7 @@
  * list_len - returns number of elements in a linked list
  * @h: list to analize
  *
- * Return: x - number of nodes
+ * Return: x-- number of nodes
  */
 
 size_t list_len(const list_t *h)
