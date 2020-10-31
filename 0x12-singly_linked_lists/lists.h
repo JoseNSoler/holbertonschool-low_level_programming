@@ -1,5 +1,5 @@
-#ifndef _VARIADIC_H_
-#define _VARIADIC_H_
+#ifndef VARIADIC_H_
+#define VARIADIC_H_
 
 #include <string.h>
 #include <stdio.h>
@@ -22,6 +22,6 @@ typedef struct list_s
 } list_t;
 
 size_t print_list(const list_t *h);
-
+size_t list_len(const list_t *h);
 
 #endif
