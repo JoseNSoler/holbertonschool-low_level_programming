@@ -1,5 +1,5 @@
-#ifndef VARIADIC_H_
-#define VARIADIC_H_
+#ifndef LINKED_H_
+#define LINKED_H_
 
 
 #include <string.h>
@@ -22,9 +22,6 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
-
-
-
 
 
 #endif
