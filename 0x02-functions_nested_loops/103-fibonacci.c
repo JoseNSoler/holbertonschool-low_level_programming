@@ -18,7 +18,7 @@ int main(void)
 	while (1)
 	{
 		fibsumm = fib1 + fib2;
-		if (fibsum > 4000000)
+		if (fibsumm > 4000000)
 			break;
 
 		if ((fibsumm % 2) == 0)
