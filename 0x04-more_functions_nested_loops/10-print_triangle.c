@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "holberton.h"
 
 /**
  * print_triangle - print a triangle of #
@@ -9,13 +10,13 @@
 
 void print_triangle(int size)
 {
-	int x = 1, y = 1;
+	int x = 0, y = 0;
 
 	if (size > 0)
 	{
-		for (; x <= size; x++)
+		for (x = 1; x <= size; x++)
 		{
-			for (; y <= size; y++)
+			for (y = 1; y <= size; y++)
 			{
 				if (y <= size - x)
 					_putchar(' ');
