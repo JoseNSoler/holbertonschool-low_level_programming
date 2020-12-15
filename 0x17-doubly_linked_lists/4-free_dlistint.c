@@ -3,7 +3,7 @@
 /**
  * free_dlistint - free a double link list
  * @head: header of list
-
+ *
  * Return: void function.
  */
 
