@@ -4,7 +4,7 @@
  * hash_table_get - Retrieves a KEY item in a hash table
  * @ht: hash table to analyze
  * @key: key associated with value-node
- * 
+ *
  * Return:VALUE associated with the value
  */
 
